@@ -1,0 +1,34 @@
+[
+    {
+        "title": "משתמשי מערכת",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "הרשאות מערכת",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "מעקב פעולות לוג",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "מסכי מערכת",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    }
+]

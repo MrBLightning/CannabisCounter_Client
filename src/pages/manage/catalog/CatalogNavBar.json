@@ -1,0 +1,92 @@
+[
+    {
+        "title": "פריטים",
+        "navLink": "/items",
+        "action": "manage/item",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "מגוון לסניף",
+        "navLink": "/migvanbranch",
+        "action": "manage/migvanBranch",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "מגוון לספק",
+        "navLink": "/migvansapak",
+        "action": "manage/migvanSapak",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "מחלקות",
+        "navLink": "/departments",
+        "action": "manage/department",
+        "id": "departments",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "קבוצות",
+        "navLink": "/groups",
+        "action": "manage/group",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "קבוצות משנה",
+        "navLink": "/subgroups",
+        "action": "manage/subgroup",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "סדרה",
+        "navLink": "/degems",
+        "action": "manage/degem",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "עץ מוצר",
+        "navLink": "/peruks",
+        "action": "manage/peruk",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "תחליפים",
+        "navLink": "/subbars",
+        "action": "manage/subbar",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "תחליפים כללי",
+        "navLink": "/subbargenerals",
+        "action": "manage/subbargeneral",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "title": "כותרת ידיעון",
+        "navLink": "/yed",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "כותרת משנה",
+        "navLink": "/subtitle",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "מבצעים",
+        "navLink": "/yedmiv",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "מבצעי מוצרים",
+        "navLink": "/product-campaign",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "תצוגות",
+        "navLink": "/yedtz",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "ידיעונים",
+        "navLink": "/yedion",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    }
+]

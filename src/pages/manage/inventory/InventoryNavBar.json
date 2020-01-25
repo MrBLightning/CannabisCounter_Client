@@ -1,0 +1,58 @@
+[
+    {
+        "title": "מלאי",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "מלאי ברזל",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "פחת",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "ממוצעים",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "ימים ללא מכירה",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "תכנון הזמנות",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "ביקורת הזמנות",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    }
+]

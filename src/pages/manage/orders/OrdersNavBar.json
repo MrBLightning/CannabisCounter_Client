@@ -1,0 +1,117 @@
+[
+    {
+        "title": "חישוב הזמנה",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "תנועות פריט יומי",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "תנועות פריט מטריצה",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "פריטים עונתיים",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "השפעת קטגוריה",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "מציאת פריט עונתי",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "המלצה להזמנה",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "שריון דגים",
+        "navLink": "/reserveFish",
+        "action": "order/reserveFish",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "שריון עוף",
+        "navLink": "/reserveChicken",
+        "action": "order/reserveChicken",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "דוח מכירות",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "דוח ברקוד",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "דלי מכר חסימה",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "דלי מכר חריגים",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "חלוקה לפי פריט",
+        "navLink": "/distSingleItem",
+        "action": "order/distSingleItem",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    }
+]

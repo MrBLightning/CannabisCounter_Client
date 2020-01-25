@@ -1,0 +1,51 @@
+[
+    {
+        "title": "מיקום",
+        "navLink": "/locations",
+        "action": "manage/locations",
+        "id": "locations",
+        "icon":"faMapMarkerAlt",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "יצרנים",
+        "navLink": "/suppliers",
+        "action": "manage/suppliers",
+        "id": "suppliers",
+        "icon":"faTags",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },{
+        "title": "מוצרים",
+        "navLink": "/catalog",
+        "action": "manage/catalog",
+        "id": "catalog",
+        "icon":"faIndustry",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "בית מרקחת",
+        "navLink": "/pharmacy",
+        "action": "manage/pharmacy",
+        "id": "pharmacy",
+        "icon":"faPrescriptionBottleAlt",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "מלאי",
+        "navLink": "/stock",
+        "action": "manage/stock",
+        "id": "stock",
+        "icon":"faCannabis",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    }
+]

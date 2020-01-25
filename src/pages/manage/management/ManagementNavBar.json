@@ -1,0 +1,190 @@
+[
+    {
+        "title": "ביקורת ממשק",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "סניפים",
+        "navLink": "/branches",
+        "action": "manage/branch",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "ספקים",
+        "navLink": "/sapakim",
+        "action": "manage/sapak",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "תתי ספקים",
+        "navLink": "/nopage",
+        "action": "",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "משתמשים",
+        "navLink": "/nopage",
+        "action": "",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "הרשאות",
+        "navLink": "/nopage",
+        "action": "",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "קבוצות הרשאה",
+        "navLink": "/nopage",
+        "action": "",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "ימי אספקה",
+        "navLink": "/aspaka",
+        "action": "manage/aspaka",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "עונות",
+        "navLink": "/nopage",
+        "action": "",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "תאריכי עונות",
+        "navLink": "/nopage",
+        "action": "",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "הגדרות חלוקה",
+        "navLink": "/supsiryun",
+        "action": "manage/supsiryun",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "סיבות השמדה",
+        "navLink": "/sibaDestructions",
+        "action": "manage/siba",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "סיבות העברה",
+        "navLink": "/sibaTransfers",
+        "action": "manage/siba",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "סיבות המרה",
+        "navLink": "/sibaConversions",
+        "action": "manage/siba",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "מאשרים",
+        "navLink": "/sibaAuths",
+        "action": "manage/siba",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "המלצה לסניף",
+        "navLink": "/dorders",
+        "action": "manage/dorder",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "המרת חשבונות",
+        "navLink": "/codeConversion",
+        "action": "manage/codeConversion",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "רשתות",
+        "navLink": "/networks",
+        "action": "manage/branchNetwork",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "יחידות",
+        "navLink": "/unitSize",
+        "action": "manage/unitSize",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "שיוך פריט לספק",
+        "navLink": "/singleSupplierItem",
+        "action": "manage/singleSupplierItem",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "טעינת קבצים",
+        "navLink": "/nopage",
+        "action": "",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "title": "בניית הזמנות לספק",
+        "navLink": "/supplierOrder",
+        "id": "order/orderItem",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "הזמנות ספק",
+        "navLink": "/orderItems",
+        "id": "order/orderItem",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    },
+    {
+        "title": "תעודות כניסה",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "תעודות החזרה",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "תעודות העברה",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "תעודות אישור העברה",
+        "navLink": "/nopage",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": true
+    },
+    {
+        "title": "תעודות השמדה",
+        "navLink": "/destruction",
+        "id": "",
+        "mobile": false,
+        "level": 1,
+        "disabled": false
+    }
+]

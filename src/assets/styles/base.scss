@@ -1,0 +1,338 @@
+@import './normalize';
+@import './fonts';
+@import './variables';
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  direction: rtl;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: $color-primary;
+  background: $color-base;
+}
+
+body {
+  overflow: hidden;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+#root {
+  height: inherit;
+  padding: 0;
+  margin: 0;
+  -webkit-animation: fadeInFromNone 0.2s ease-out;
+  -moz-animation: fadeInFromNone 0.2s ease-out;
+  -o-animation: fadeInFromNone 0.2s ease-out;
+  animation: fadeInFromNone 0.2s ease-out;
+}
+
+.app-wrapper {
+  height: 100%;
+}
+
+.loader:empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: calc(50% - 100px);
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border-top: 4px solid rgba(0, 0, 0, 0);
+  border-right: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+  border-left: 4px solid $color-primary;
+  -webkit-animation: load8 0.8s infinite linear;
+  animation: load8 0.8s infinite linear;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(361deg);
+    transform: rotate(361deg);
+  }
+}
+
+@keyframes scaleABit {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+.loader.black:empty {
+  border: 0.2em solid $color-primary;
+  border-left: 0.2em solid rgba(0, 0, 0, 0);
+}
+
+.fadeInFromNone-short {
+  -webkit-animation: fadeInFromNone 0.25s ease-out;
+  -moz-animation: fadeInFromNone 0.25s ease-out;
+  -o-animation: fadeInFromNone 0.25s ease-out;
+  animation: fadeInFromNone 0.25s ease-out;
+}
+
+.fadeInFromNone-fast {
+  -webkit-animation: fadeInFromNone 1.2s ease-out;
+  -moz-animation: fadeInFromNone 1.2s ease-out;
+  -o-animation: fadeInFromNone 1.2s ease-out;
+  animation: fadeInFromNone 1.2s ease-out;
+}
+
+.fadeInFromNone-medium {
+  -webkit-animation: fadeInFromNone 3s ease-out;
+  -moz-animation: fadeInFromNone 3s ease-out;
+  -o-animation: fadeInFromNone 3s ease-out;
+  animation: fadeInFromNone 3s ease-out;
+}
+
+.fadeInFromNone-long {
+  -webkit-animation: fadeInFromNone 7s ease-out;
+  -moz-animation: fadeInFromNone 7s ease-out;
+  -o-animation: fadeInFromNone 7s ease-out;
+  animation: fadeInFromNone 7s ease-out;
+}
+
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutFromNone {
+  0% {
+    display: block;
+    opacity: 1;
+  }
+
+  99% {
+    display: block;
+  }
+
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 5000;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.0);
+  overflow-y: auto;
+  transition: background-color 0.2s ease;
+
+  &.open {
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .modal-close {
+    z-index: 5100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.25em;
+    font-size: 2em;
+  }
+
+  .modal-inner {
+    position: relative;
+    margin: 3em;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // min-height: 300px;
+    // min-width: 300px;
+    // max-width: 100%;
+  }
+}
+
+input,
+textarea,
+button {
+  font-size: 1em;
+  line-height: 1.2em;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  border: 1px solid #dddddd;
+  outline: none;
+  transition: all 0.1s ease-in;
+
+  &:focus {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
+input[type=submit]:hover,
+button:hover {
+  cursor: pointer;
+  background: $color-accent;
+  color: $color-base;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+input[type=range] {
+  background: none;
+  border: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  margin: 0.9em 0;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 0.2em;
+    cursor: pointer;
+    animate: 0.2s;
+    // box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #181818;
+    // border-radius: 1.3px;
+    // border: 0.2px solid #010101;
+  }
+
+  &::-webkit-slider-thumb {
+    box-shadow: $box-shadow-thin-black;
+    border: 1px solid #181818;
+    height: 1.8em;
+    width: 0.8em;
+    border-radius: 3px;
+    background: #fafafa;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -0.9em;
+  }
+
+  &:focus::-webkit-slider-runnable-track {
+    // background: #367ebd;
+  }
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto !important;
+}
+
+
+
+/**
+ * 1. Adjust this to size
+ */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  font-size: 1.25em;
+  height: 1em;
+  width: 2em;
+  background: $color-accent-darkest;
+  border-radius: 1em;
+
+  input[type="checkbox"] {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    width: 2em;
+    height: 1em;
+    z-index: 10;
+  }
+
+  .switch-display {
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background: $color-base;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 180ms;
+    -moz-transition: all 180ms;
+    transition: all 180ms;
+  }
+  input[type="checkbox"]:checked+.switch-display {
+    -webkit-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    background: $color-accent;
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@import './simplebar';
