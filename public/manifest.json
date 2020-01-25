@@ -1,7 +1,7 @@
 {
-  "version": "1.6.5",
-  "short_name": "Gorme App",
-  "name": "Algoretail Gorme Mobile App",
+  "version": "1.0",
+  "short_name": "CannabisCounter",
+  "name": "CannabisCounter Mobile App",
   "icons": [
     {
       "src": "favicon.ico",
